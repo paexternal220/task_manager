@@ -1,19 +1,17 @@
 body {
     background: linear-gradient(to bottom, #6b46c1, #f9a8b6);
-    background-repeat: no-repeat; /* Prevent background repetition */
-    background-attachment: fixed; /* Keep the background fixed */
-    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: Arial, sans-serif;
     color: #333;
 
-    /* Center the container both horizontally and vertically */
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Ensure the container takes the full viewport height */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-/* Container Styles */
 .container {
     width: 90%;
     max-width: 450px;
@@ -23,10 +21,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow-x: hidden;  
   overflow-y: auto;
-    max-height: 100vh; /* Set a maximum height for the container */
+    max-height: 100vh;
 }
 
-/* Title Styles */
 .title {
     text-align: center;
     font-size: 24px;
@@ -40,7 +37,6 @@ body {
     color: #6b46c1;
   transform: scale(1.50);
 }
-/* Task Form Styles */
 .task-form {
     display: flex;
     flex-direction: column;
@@ -70,7 +66,6 @@ body {
     background-color: #0056b3;
 }
 
-/* Task List Styles */
 .task-list {
     list-style: none;
     padding: 0;
@@ -108,17 +103,15 @@ li {
     background-color: #cc0000;
 }
 
-/* Expected Completion Styles */
 .expected-completion {
-    flex-grow: 1; /* Expand to fill available space */
-    margin-right: 10px; /* Add margin to separate from other buttons */
+    flex-grow: 1;
+    margin-right: 10px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
 }
 
-/* Completed Button Styles */
 .complete-btn {
     background-color: #33cc33;
     color: #fff;
@@ -132,9 +125,8 @@ li {
 .complete-btn:hover {
     background-color: #2ca02c;
 }
-/* Clear All Button Styles */
 .clear-all-btn {
-    display: none; /* Hide the button by default */
+    display: none;
     background-color: #ff3333;
     color: #fff;
     border: none;

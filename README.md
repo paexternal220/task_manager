@@ -12,22 +12,18 @@ Welcome to the Task Manager Web App repository! This project provides a responsi
 
 - **Task Creation:** Easily add new tasks with a user-friendly input field.
 - **Task Prioritization:** Prioritize your tasks to stay organized.
-- **Completion Tracking:** Mark tasks as completed with a single click.
 - **Task Removal:** Remove completed or unwanted tasks from the list.
 - **Responsive Design:** Enjoy a seamless experience on various devices and screen sizes.
 
 ## Technologies Used
 
-- HTML
-- CSS
+
 - JavaScript
 
 ## Getting Started
 
 ### Prerequisites
 
-- GitHub
-- A modern web browser
 
 ### Installation
 
@@ -45,7 +41,7 @@ Prioritize tasks by moving the most important ones to the top.
 Mark tasks as completed by clicking the "Completed" button.
 Remove tasks by clicking the "Delete" button.
 Contributions
-Contributions are welcome! If you'd like to improve this project or fix any issues, please fork the repository and submit a pull request.
+
 
 License
 This project is licensed under the MIT License.

@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (taskText !== "") {
             addTask(taskText);
             taskInput.value = "";
-            clearAllBtn.style.display = "inline-block"; // Show the button
+            clearAllBtn.style.display = "inline-block";
         }
     });
 
@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const deleteBtn = li.querySelector(".delete-btn");
         deleteBtn.addEventListener("click", function () {
             li.remove();
-            // Check the number of tasks to show/hide the "Clear All" button
+        
             if (taskList.children.length === 0) {
-                clearAllBtn.style.display = "none"; // Hide the button
+                clearAllBtn.style.display = "none";
             }
         });
 
-        // Use setTimeout to add the animation class after a slight delay
+    
         setTimeout(function () {
             li.classList.add("task-entry");
         }, 10);
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     clearAllBtn.addEventListener("click", function () {
-        taskList.innerHTML = ""; // Clear all tasks
-        clearAllBtn.style.display = "none"; // Hide the button
+        taskList.innerHTML = "";
+        clearAllBtn.style.display = "none";
     });
 });
